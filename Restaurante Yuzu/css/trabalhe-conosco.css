@@ -1,0 +1,317 @@
+.interna-trabalhe {
+	background: url("../img/pratos_restaurante.jpg") no-repeat;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 787px) {
+
+	.interna-trabalhe   {
+		margin-top: 0px;
+		padding-top: 100px;
+		background: url("../img/pratos_restaurante.jpg") no-repeat center;
+		background-size: cover;
+	}
+		
+}
+
+.time {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    font-size: 34px;
+    letter-spacing: 0px;
+	font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.curriculo p1 {
+    text-align: left;
+    margin-left: 60px;
+    font-size: 16px;
+    font-family: 'roboto';
+  
+}
+
+/* JavaScript animação */
+
+[data-anime] {
+	opacity: 0;
+  }
+  
+  .anime {
+	opacity: 1;
+	transform: none;
+	transition: transform .8s, opacity .8s;
+  }
+
+   /* Contato */
+
+.contato {
+	background: #ffffff;
+	width: 100%;
+	margin-top: 60px;
+	padding-top: 20px;
+}
+
+.contato h2 {
+	
+	color:#000;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	line-height: 20px;
+
+}
+
+.form {
+	padding-right: 80px;
+}
+
+.form label {
+	display: block;
+	color:#000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 4px;
+}
+
+.form input {
+	display: block;
+	width: 150%;
+	border: 2px solid #130d01;
+	background: none;
+	color:#262121;
+	padding: 7px 10px;
+	margin-bottom: 13px;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.form textarea {
+	display: block;
+	width: 150%;
+	height: 150px;
+	border: 2px solid #130d01;
+	background: none;
+	color:#262121;
+	padding: 7px 10px;
+	margin-bottom: 12px;
+	font-size: 14px;
+	font-family:"Roboto"
+}
+
+.form button {
+	padding: 7px 30px;
+	background: #130d01;
+	border: 1px solid rgb(255, 255, 255);	
+	color:#ffffff;
+	font-size: 14px;
+	font-family: sans-serif;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+
+}
+
+.form button:hover {
+	color: #262121;
+	border-color:rgb(26, 0, 0);
+	background: #ffffff
+}
+
+
+
+/* Informacoes */
+
+.classe-geral{
+	margin-top: 50px;
+    display:flex;
+    justify-content:space-between;
+    height: 360px;
+   
+}
+
+.a{
+   background:white;
+    width: 50%;
+    height: 100%;
+}
+
+.a1 {
+    background: white;
+    width: 50%;
+    height: 100%;
+    margin-left: auto;
+}
+
+
+.a1 h1 {
+    text-align: left;
+	color:#000;
+    padding-top: 40px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 37px;
+	line-height: 20px;
+}
+
+.a1 h2 {
+    text-align: left;
+	color:#000;
+    padding-top: 40px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 37px;
+	line-height: 20px;
+}
+
+.a1 p1 {
+    text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+.a1 p2 {
+    text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+/*Esse é o B */
+
+.b{
+    background:white;
+    width: 50%;
+    height: 100%;
+}
+
+.b1 {
+    background:white;
+    width: 50%;
+    height: 100%;
+    margin-right: auto;
+}
+
+.b1 h3 {
+    text-align: left;
+	color:#000;
+    padding-top: 40px;
+	padding-bottom: 29px;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 37px;
+	line-height: 20px;
+}
+
+.b1 p3 {
+    text-align: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+.b1 h5 {
+    text-align: left;
+	color:#000;
+    padding-top: 60px;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 37px;
+	line-height: 20px;
+}
+
+
+@media only screen and (max-width: 759px) {
+    .a1 p1{
+        margin-left: 25px;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+   
+    .a1 h1{
+        text-align: center;
+        font-size: 35px;
+    }
+    .a1 h2{
+        margin-top: -5px;
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .a1 p2{
+        padding-top: 20px;
+        margin-top: 10px;
+		margin-left: 25px;
+        font-size: 12px;
+    }
+     .a1 {
+        width: 100%;
+    }
+
+	.classe-geral {
+        height: 80%;
+    }
+}
+
+/* Responsivo b1 */
+
+@media only screen and (max-width: 759px) {
+    .b1 p3{
+        text-align: center;
+        margin-top: 10px;
+		margin-left: 11px;
+        font-size: 12px;
+		
+    }
+    .b1 h3{
+        text-align: center;
+        font-size: 35px;
+    }
+    .b1 h5{
+        margin-top: -5px;
+        text-align: center;
+        font-size: 35px;
+    }
+      .b1{
+        width: 100%;
+    }
+}
+
+/* Footer */
+
+.footer {
+	margin-top: 25px;
+	height: 40px;
+	background-color: #000;
+	color: #ffffff;
+}
+
+.footer p{
+	margin-top: 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.footer a {
+	color: #7657be;
+}
+@media only screen and (max-width: 859px) {
+	.footer p{
+        font-size: 13px;
+		
+    }
+}

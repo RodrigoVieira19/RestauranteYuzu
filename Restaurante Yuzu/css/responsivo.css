@@ -1,0 +1,49 @@
+/*Estilo para tablets */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+}
+	
+/* Estilo para celular */ 
+
+@media only screen and (max-width: 787px) {
+
+.header {
+	position: relative;
+}
+
+.header img {
+	margin: 0 auto;
+}
+.header_menu {
+	text-align: center;
+}
+
+
+/* Carousel RESPONSIVO */
+
+.item1 img{ height:150px; width:100%; object-fit:cover}
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9999;
+    width: 100%;
+}
+
+.owl-nav button {
+    background: #fff !important;
+    width: 20px;
+    height: 20px;
+    display: block
+}
+.owl-nav button.owl-next {
+    float: right;
+}
+
+
+
+
+
+
+}

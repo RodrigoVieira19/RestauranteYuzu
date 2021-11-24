@@ -1,0 +1,95 @@
+.interna-trabalhe {
+	background: url("../img/sobre_contato.jpg") no-repeat;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 787px) {
+
+	.interna-trabalhe  {
+		margin-top: 0px;
+		padding-top: 100px;
+		background: url("../img/sobre_contato.jpg") no-repeat center;
+		background-size: cover;
+	}
+		
+}
+
+.titulo {
+	margin-top: 46px;
+	font-family: 'Lora', serif;
+	font-size: 38px;
+}
+.titulo, h3 {
+	font-weight: 700;
+}
+.subtitulo {
+	margin-top: 13px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	margin-bottom: 12px;
+	margin-top: 13px;
+}
+
+.subitutlo, h3{
+	margin-top: 40px;
+}
+
+/* JavaScript animação */
+
+[data-anime] {
+	opacity: 0;
+  }
+  
+  .anime {
+	opacity: 1;
+	transform: none;
+	transition: transform .8s, opacity .8s;
+  }
+
+/* Footer */
+
+.footer {
+	margin-top: 25px;
+	height: 40px;
+	background-color: #000;
+	color: #ffffff;
+}
+
+.footer p{
+	margin-top: 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif
+}
+
+.footer a {
+	color: #7657be;
+}
+@media only screen and (max-width: 859px) {
+	.footer p{
+        font-size: 13px;
+		
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

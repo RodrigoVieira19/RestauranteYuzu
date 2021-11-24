@@ -1,0 +1,298 @@
+.interna-trabalhe {
+	background: url("../img/soba-udon.jpg") no-repeat;
+	background-size: cover;
+}
+
+@media only screen and (max-width: 787px) {
+
+	.interna-trabalhe {
+		margin-top: 0px;
+		padding-top: 100px;
+		background: url("../img/soba-udon.jpg") no-repeat center;
+		background-size: cover;
+	}
+		
+}	
+
+/* Ramen */
+
+.texto{
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-transform: uppercase;
+	font-family: 'arial';
+	color: white;
+	font-size: 30px;
+	line-height: 44px;
+	font-weight:bold;
+	letter-spacing: 10px;
+}
+
+.texto:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: rgb(255, 255, 255);
+	margin: 8px auto;
+}
+
+body {
+	background: #1b1919;
+  }
+  
+  .main-container {
+	max-width: 1360px;
+	margin: 0 auto;
+  }
+  
+  .one-half {
+	background: #201d1d;
+	width: 48%;
+	float: left;
+	margin: 0px 1%;
+	text-align: center;
+	padding: 0px 20px;
+	box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.one-half {
+	  width: 94%;
+	  margin: 0 auto 30px;
+	  float: inherit;
+	  background: #202020;
+	}
+  }
+  
+  .block-image {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	margin-bottom: 50px;
+  }
+  
+  
+  .left .block-image:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 300%;
+	background: url('../img/pratos/a.png');
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+	animation: bgZoom 14s ease 10ms infinite;
+	animation-play-state: paused;
+	background-position: right top;
+  }
+  
+  .one-half:hover .block-image:before {
+		animation-play-state: running;
+  }
+  
+  @keyframes bgZoom{
+	0% { transform:translateY(0px)}
+	50% { transform:translateY(-100px)}
+  }
+  
+  .right .block-image:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 300%;
+	background: url('../img/pratos/b.png');
+	background-position: right top;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	-webkit-transform: translateZ(0) scale(1.0, 1.0);
+	animation: bgZoom 14s ease 10ms infinite;
+	animation-play-state: paused;
+  }
+  
+  .block-image:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0,0,40,.5), rgba(0,0,0,0));
+	z-index: 2;
+  }
+  
+  .one-half h3{
+	color: white;
+	font-size: 32px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	position: relative;
+	transition-duration: .2s;
+	margin-bottom: 15px;
+  }
+  
+  
+  .one-half p {
+	color: #aaa;
+	display: block;
+	margin-bottom: 40px;
+  }
+  
+  .secao a {
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	border-top: 1px solid #fcd4a4;
+	border-bottom: 1px solid #fcd4a4;
+	border-left: 1px solid #fcd4a4;
+	border-right: 1px solid #fcd4a4;
+	padding: 16px 30px;
+	margin-bottom: 60px;
+	display: inline-block;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .secao a:hover {
+	color: #1b1919;
+	background-color: #fcd4a4;
+  }
+
+  
+  section2 {
+	background: #1b1919;
+	font-family: "Lato", sans-serif;
+  }
+  
+  .main-container2 {
+	max-width: 1360px;
+	padding-top: 80px;
+	margin: 0 auto;
+  }
+  
+  .one-half2 {
+	background: #201d1d;
+	width: 48%;
+	float: left;
+	margin: 0px 1%;
+	text-align: center;
+	padding: 0px 20px;
+	box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 768px) {
+	.one-half2 {
+	  width: 94%;
+	  margin: 0 auto 30px;
+	  float: inherit;
+	  background: #202020;
+	}
+  }
+  
+  .block-image2 {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	margin-bottom: 50px;
+  }
+  
+  
+  .left2 .block-image2:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 300%;
+	background: url("../img/pratos/c.png");
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	-webkit-transform: translateZ(0) scale(1, 1);
+	animation: bgZoom 14s ease 10ms infinite;
+	animation-play-state: paused;
+	background-position: right top;
+  }
+  
+  .one-half2:hover .block-image2:before {
+	animation-play-state: running;
+  }
+  
+  @keyframes bgZoom {
+	0% {
+	  transform: translateY(0px);
+	}
+	50% {
+	  transform: translateY(-100px);
+	}
+  }
+  
+  .right2 .block-image2:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 300%;
+	background: url("../img/pratos/d.png");
+	background-position: right top;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	-webkit-transform: translateZ(0) scale(1, 1);
+	animation: bgZoom 14s ease 10ms infinite;
+	animation-play-state: paused;
+  }
+  
+  .block-image2:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0, 0, 40, 0.5), rgba(0, 0, 0, 0));
+	z-index: 2;
+  }
+  
+  .one-half2 h3{
+	color: white;
+	font-size: 32px;
+	font-family: 'arial';
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	position: relative;
+	transition-duration: .2s;
+	margin-bottom: 15px;
+  }
+  
+  
+  .one-half2 p {
+	color: #aaa;
+	display: block;
+	margin-bottom: 40px;
+  }
+  
+  
+
+
+
+/* JavaScript animação */
+
+[data-anime] {
+	opacity: 0;
+  }
+  
+  .anime {
+	opacity: 1;
+	transform: none;
+	transition: transform .8s, opacity .8s;
+  }

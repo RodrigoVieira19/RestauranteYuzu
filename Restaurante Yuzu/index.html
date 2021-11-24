@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Restaurante Yuzu - Home</title>
+		<meta name="description" content="Venha experimentar a melhor comida Japonesa de toda a cidade de São Paulo!">
+		<meta content='width=device-width, initial-scale=1.0' name='viewport'>
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Restaurante Yuzu - a sua experiência é a nossa felicidade"/>
+		<meta property="og:description" content=" Pratos tipicamente Japones. Gohan, Onigiri, Yakissoba etc tudo para você!"/>
+		<meta property="og:url" content="http://Restaurante-Yuzu.com.br"/>
+		<meta property="og:image" content="http://Restaurante-Yuzu.com.br/img/og-yuzu.png">
+
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<!-- Slide do cabeçalho(Header)-->
+		<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css"> 
+
+
+		<!-- Slide dos pratos (Menu)-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
+
+		
+		<!--CSS-->
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsivo.css">
+
+
+		<!--Fontes usadas pegas no google!-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"> 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+
+	</head>
+    <body>
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="grid-4">
+					<img src="img/logo_yuzu_pequeno.jpg" alt="Yuzu">
+				</a>
+				<nav class="grid-12 header_menu">
+					<ul>
+						<li><a href="index.html" class="menu_ativo">Home</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="delivery.html">Delivery</a></li>
+						<li><a href="trabalhe-conosco.html">Trabalhe Conosco</a></li>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+				
+		<!-- Carousel-Header-->
+
+		<header>
+			<div id="owl-carousel-2" class="owl-carousel owl-theme">
+				<div class="item1"><img src="img/Group2.jpg" alt="Rodapé-2" ></div>
+				<div class="item1"><img src="img/Group1.jpg" alt="Rodapé-1"></div>
+			</div>
+		  
+			<!--Script HEADER-->
+			<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+			<script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+			
+			<script>
+				$('#owl-carousel-2').owlCarousel({
+				loop:true,
+				autoplay:true,
+				margin:0,
+				nav:true,
+				dots:true,
+				 responsive:{
+					 0:{
+						 items:1
+					 },
+					 600:{
+						 items:1
+					 }
+				 }
+			 })
+			</script>
+
+			
+		</header>
+
+			<!--pratos-->
+		<section class="produtos container">
+			<h2 class="pratos">O sabor do Japão aqui</h2>
+				<ul class="produtos_lista">
+				<li class="grid-1-3">
+					<div class="produtos_icone">
+						<img src="img/gohan.jpg" alt="Gohan">
+					</div>
+				</li>
+	
+				<li class="grid-1-3">
+					<div class="produtos_icone">
+						<img src="img/prato-tonkatsu.jpg" alt="Tonkatsu">
+					</div>
+
+				</li>
+
+				<li class="grid-1-3">
+					<div class="produtos_icone">
+						<img src="img/Gyoza.jpg" alt="Gyoza">
+					</div>
+		
+				</li>
+				</ul>
+				
+			</section>
+
+			<!-- Nossa História-->
+			<section class="cor">
+				<h1> Nossa História </h1>
+			<section class="restaurante_historia"> 
+				<div>
+		   <img src="img/sushiman.jpg" alt="Sobre 1"> 
+		</div>
+
+	   <div class="restaurante_historia-info">
+		   <p class="texto1"> Antes mesmo de partir de sua casa, na prefeitura de Kagoshima em 1960, Shogo Yamaguchi sempre sonhou em ter seu próprio restaurante especializado em comida Nipônica. </p>
+		   <p class="texto1"> Deixando o Japão com 22 anos, no porto de Kobe à caminho de Santos, Shogo foi trabalhar em fábricas no interior do estado de São Paulo. </p>
+		   <p class="texto1">Vendo que a comida de seu país ainda era algo incomum no Brasil, Shogo 15 anos depois (em 1975) funda o Restaurante Yuzu. um restaurante tipicamente Japonês, hoje localizado na rua Thomaz Gonzaga, liberdade, no coração da cidade de São Paulo.</p>
+	   </div>
+		</section> 
+	   </section>
+
+	   <section class="botao_teste">
+		<div class="clique_aqui">
+			<p>clique aqui e saiba mais sobre a gente</p>
+			<a href="sobre.html" class="btn">Sobre</a>
+		</div>
+	   </section>
+			
+
+	   <!-- Cardápio-->
+	   <div class="row">
+		<div class="column1">
+		  <img src="./img/123.jpg" alt="Lamenzinho" style="width:100%">
+		</div>
+		<div class="column2">
+		  <img src="./img/456.jpg" alt="Cardapio" style="width:100%">
+			<h1>Cardápio <br> <br> <br><a href="menu.html" class="btn-preto3">Veja aqui</a> </h1>
+		</div>
+	  </div>
+
+
+	<!-- Delivery Online-->
+	  <div class="row1">
+		<div class="column5">
+			<h2> Delivery Online <br> <br> <br> <a href="delivery.html" class="btn-preto3"> Peça agora</a> </h2>
+		</div>
+	  </div>
+  
+
+
+			<!-- Espaço em branco-->
+
+			<section class="espaco">
+				<div class="container"> </div>
+ 			</section>
+			 
+			<!-- Slide dos pratos(MENU)-->
+
+			 <section>
+				<div id="owl-carousel-1" class="owl-carousel owl-theme">
+					<div class="item">
+						<img src="img/image1.jpg" alt="Imagem-Carousel">
+					</div>
+					<div class="item">
+						<img src="img/image2.jpg" alt="Imagem-Carousel-2">
+					</div>
+					<div class="item">
+						<img src="img/image3.jpg" alt="Imagem-Carousel-3">
+					</div>
+					<div class="item">
+						<img src="img/image4.jpg" alt="Imagem-Carousel-4">
+					</div>
+					<div class="item">
+						<img src="img/image5.jpg" alt="Imagem-Carousel-5">
+					</div>
+					<div class="item">
+						<img src="img/image6.jpg" alt="Imagem-Carousel-6">
+					</div>
+					<div class="item">
+						<img src="img/image7.jpg" alt="Imagem-Carousel-7">
+					</div>
+					<div class="item">
+						<img src="img/image8.jpg" alt="Imagem-Carousel-8">
+					</div>
+					<div class="item">
+						<img src="img/image9.jpg" alt="Imagem-Carousel-9">
+					</div>
+				</div>
+			
+			
+				<!-- Esse é um plugin. embaixo há o arquivo Jquery e do slide chamado "Owl-carousel" (para o slide funcionar é necessario esses arquivos)-->
+
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+			
+				<script>
+					$(document).ready(function(){
+						$('#owl-carousel-1').owlCarousel({
+							loop:true,
+							responsive: {
+								0 : {
+									items : 1
+								},
+								600 : {
+									items : 2
+								},
+								1200 : {
+									items : 4
+								}
+							},
+							autoplay: true,
+							autoplayTimeout: 1500
+						});
+					})
+				</script>
+			 </section>
+			 
+
+			 	<!--Bem-vindo-->
+
+				 <section class="Welcome2">
+					<div>
+						<div class="Welcome2">
+							<img src="img/bemvindo2.jpg" alt="Bem-Vindo!">
+						</div>
+					</div>
+				</section>
+
+			<!-- Contato-->
+
+			<section class="contato">
+				<div class="container">
+						<h2 class="subtitulo">Contato</h2>
+						<form id="form_orcamento" class="form grid-12">
+							<label for="nome">Nome</label>
+							<input type="text" id="nome" required>
+							<label for="email">E-mail</label>
+							<input type="text" id="email" required>
+							<label for="telefone">Telefone</label>
+							<input type="text" id="telefone" required>
+							<label for="espec">Mensagem</label>
+							<textarea id="espec"></textarea>
+							<button type="submit">Enviar</button>
+						</form>
+				</div>
+			</section>
+
+				<!-- Informacoes-->
+				<div class="classe-geral">
+					<div class="a">
+                        <div class="a1">
+						<h1> Almoço </h1>
+						
+							<p1><a> Segunda a Sexta 10:00~15:00hrs </a> <br>  </p1>
+							<p1>Sábado e Feriados 11:00hs~15:00hrs <br>  </p1>
+							<p1>Domingo: Não abrimos <br> </p1>
+						
+						<h2> Jantar </h2>
+						<p2> Segunda a Sexta: 18:00hrs ~ 22:00hrs <br> </p2>
+						<p2> Sábado e Feriados: 18:00hrs ~ 23:00hrs	<br> </p2>
+						<p2> Domingo: Não abrimos </p2>
+                        </div>
+					</div>
+					
+					<div class="b"> 
+                        <div class="b1">
+						<h3> Endereço </h3>
+						
+							<p3>Av. da Liberdade, 190 - Próximo à estação Liberdade-Japão, <br> </p3>
+							<p3>Bairro da Liberdade, São Paulo - SP, 0654522.</p3>
+							<h5> (11) 9999-9999</h5>
+                        </div>
+					</div>
+				</div>
+
+				<!--Footer-->
+				<footer>
+					<div class="footer">		
+						<div class="container">
+							<p>Restaurante Yuzu - 2021 | Desenvolvido por <a href="https://github.com/RodrigoVieira19" target="_blank"> Rod </a> </p>
+						</div>
+					</div>
+				</footer>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
